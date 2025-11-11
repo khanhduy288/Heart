@@ -235,7 +235,7 @@
       bgMusic.load();
       bgMusic.play();
       isPlaying = true;
-      playPauseBtn.textContent = "⏸";
+      playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
     }
 
     musicSelect.addEventListener("change", (e) => {
